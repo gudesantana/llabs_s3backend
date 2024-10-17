@@ -1,7 +1,7 @@
 variable "project" {}
 variable "createdBy" {
-  type        = string
-  default     = "llabs"
+  type    = string
+  default = "llabs"
 }
 variable "aws_region" {}
 variable "aws_profile" {}
