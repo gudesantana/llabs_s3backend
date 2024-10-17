@@ -2,9 +2,9 @@
 # How to execute
 # Step 1: terraform init
 # Step 2: terraform validate
-# Setp 3: terraform plan -var-file="s3backend.tfvars" -var="createdBy=Goodtec"
-# Setp 4: terraform apply -var-file="s3backend.tfvars" -var="createdBy=Goodtec"
-# Setp 5: terraform destroy -var-file="s3backend.tfvars" -var="createdBy=Goodtec"
+# Setp 3: terraform plan -var-file="s3backend.tfvars" -var="createdBy=llabs"
+# Setp 4: terraform apply -var-file="s3backend.tfvars" -var="createdBy=llabs"
+# Setp 5: terraform destroy -var-file="s3backend.tfvars" -var="createdBy=llabs"
 
 # Common
 project = "llabs" # Nome da conta AWS

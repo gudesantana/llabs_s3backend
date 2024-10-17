@@ -1,7 +1,7 @@
 variable "project" {}
 variable "createdBy" {
   type        = string
-  default     = "Goodtec"
+  default     = "llabs"
 }
 variable "aws_region" {}
 variable "aws_profile" {}
