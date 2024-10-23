@@ -94,6 +94,14 @@ Após a criação do Workspace ele já redireciona para o workspace criado. Mesm
 <pre><code>terraform workspace list</code></pre>
 _Obs.: O workspace default pode ser utilizado, mas por melhores praticas não iremos utilizar nesse momento._
 
+* Caso necessario criar novas infraestrutura onde seja util utilizar o mesmo codigo exemplo para outros projetos em outras regioes ou contas, o codigo do repositorio podera ser utilizado em novo workspace.
+  Nesse exemplo criamos o workspace s3backend-llabs-prd. Porem poderia ser configurado o mesmo projeto em contas e regioes separadas apenas criando um novo arquivo .tfvars editando as variaveis do arquivo.
+Exemplo:
+  s3backend-llabs-prd.tfvars
+  s3backend-llabs-hml.tfvars
+  s3backend-llabs-prd-us-east-2.tfvars
+  etc...
+
 5 - Criação da infraestrutura AWS com o terraform
 
 * Criação da infraestrutura e recursos s3 e dynamodb. O dynamo db nesse projeto tem a função de não permitir que outro usuário altere o código do repositório ao mesmo tempo. Então nesse caso, o dynamodb bloqueia o acesso do segundo usuário.
