@@ -1,6 +1,6 @@
-**Bem-vindo ao wiki do llabs_s3backend!**
+**Bem-vindo ao wiki do repositório!**
 
-Esse repositório llabs_s3backend ajuda no salvamento do estado do terraform e configurações de conta para os usuários colaborarem entre si com o uso do terraform.
+Esse repositório ajuda no salvamento do estado do terraform e configurações de conta para os usuários colaborarem entre si com o uso do terraform.
 
 1 - Pre-requisito 
 * A conta da organização já tem que estar criada na AWS.
@@ -21,7 +21,7 @@ Faça o download do VsCode no endereço "VsCode":https://code.visualstudio.com/d
 
 <img width="72" alt="image" src="https://github.com/user-attachments/assets/c1942320-3162-4210-9eba-0181ff6f04b0">
 * Instalação do AWS CLI:
-Faça o download do  AWS CLI no endereço "AWS CLI":https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html. Instale o pacote conforme a versão do seu sistema operacional.
+Faça o download do AWS CLI no endereço "AWS CLI":https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html. Instale o pacote conforme a versão do seu sistema operacional.
 
 <img width="35" alt="image" src="https://github.com/user-attachments/assets/bd1931ac-58b2-4582-b493-fcb28bee08c6">
 * Instalação do terraform:
@@ -32,16 +32,22 @@ Faça o download do terraform no endereço "Terraform":https://developer.hashico
 * Abra o Vscode e efetue login VsCode para clone e versionamento do código.
 <img width="333" alt="image" src="https://github.com/user-attachments/assets/fce31344-3924-4d54-b046-335313ad1c94">
 
-4 - Clone do repositoria via git.
+4 - Clone do repositório via git.
 
 * Para clonar o repositório, crie uma pasta no seu SO e execute o comando no terminal a partir da pasta que você criou.
-Digite: <pre><code>git clone https://github.com/gudesantana/llabs_s3backend.git</code></pre>
+Digite: <pre><code>git clone https://github.com/gudesantana/llabs_hml_account.git</code></pre>
 
 * Execute o comando no seu terminal.
 <pre><code>git pull</code></pre>
 Nesse momento o repositório deverá ser baixado para trabalho no seu repositório local
 
-Nosso projeto já se encontra criado, porem mesmo assim segue ajuda para externa-lo a outros projetos.
+Nosso projeto já se encontra criado, porem mesmo assim segue ajuda para externá-lo a outros projetos.
+
+Navegue entre os workspaces digitando o comando;
+<pre><code>terraform workspace list</code></pre>
+
+Escolha o workspace criado conforme os resultados. Utilize o comando abaixo para selecionar o workspace desejado.
+<pre><code>terraform workspace SELECT <workspace></code></pre>
 
 **Para os passos abaixo, somente se for criar novos ambientes.**
 
