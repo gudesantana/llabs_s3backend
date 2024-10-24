@@ -6,10 +6,7 @@
 # Setp 4: terraform apply -var-file="s3backend.tfvars" -var="createdBy=llabs"
 # Setp 5: terraform destroy -var-file="s3backend.tfvars" -var="createdBy=llabs"
 
-# Common
-project = "llabs" # Nome da conta AWS
-
-# General 
+project        = "llabs" # Nome da conta AWS
 aws_region     = "us-east-1"
 aws_profile    = "default"
 aws_account_id = "816069124394"
